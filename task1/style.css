@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background: url(1.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+header .navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color:white;
+    padding-top: 20px;
+    font-family: monospace;
+}   
+
+header .navbar .logo {
+    font-size: 25px;
+}
+
+header .navbar .menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+header .navbar .menu a:hover{
+    color: rgb(212, 131, 131);
+    border-bottom: 1px solid rgb(212, 131, 131);
+}
+
+
+header .navbar .button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color:thistle;
+    transition: 0.5s;
+}
+
+header .navbar .button a:hover{
+    background-color: transparent;
+    color:rgb(212, 131, 131);
+    border: 1px solid black;
+
+}
+.Caption{
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+}
+.Company {
+    color:white;
+    margin-bottom: -50px;
+    letter-spacing: 5px;
+    font-size:25px;
+    font-weight:bold;
+}
+
+h1{
+    font-size: 4em;
+    color:rgb(27, 24, 24);
+}
+
+p{
+    font-size:  25px;
+    margin-top: -20px;
+    font-weight:bolder;
+    letter-spacing: 3px;
+}
